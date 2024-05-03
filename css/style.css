@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(90deg, #faebff, #c9e8ed, #cdf7e5);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+/* 页面布局 */
+.upbar {
+  background: linear-gradient(90deg, #fcf3ff, #dff1f4, #e1faef);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90px;
+  z-index: 100;
+}
+.upbar_link {
+  text-decoration: none;
+}
+.leftbar {
+  position: absolute;
+  top: 95px;
+  left: 2%;
+  width: 76%;
+  bottom: 10px;
+}
+.rightbar {
+  position: fixed;
+  right: 2%;
+  width: 18%;
+  top: 95px;
+  bottom: 10px;
+}
+/* 字体 */
+@font-face {
+  font-family: "Pixel";
+  src: url("../font/pixelFont.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zpix";
+  src: url("../font/zpix.ttf") format("truetype");
+}
+/* @import "_partial/header";
+@import "_partial/post"; */
+.hello_text1 {
+  color: #1f2328;
+  font-size: 140%;
+  font-weight: bold;
+  font-family: Pixel;
+}
+.hello_text2 {
+  color: #1f2328;
+  font-size: 160%;
+  font-weight: bold;
+  font-family: Pixel;
+}
+.hello_text3 {
+  color: #ebebee;
+  font-size: 170%;
+  background-color: #00a4ff;
+  border-radius: 6px;
+  padding: 0;
+  font-weight: bold;
+  font-family: Pixel;
+}
+.empty_text {
+  color: rgba(0,0,0,0);
+}
+.top_introduction {
+  color: #00a4ff;
+  font-weight: bold;
+  font: bolder 2px;
+  font-family: Pixel;
+  position: relative;
+  top: 4px;
+  left: 14px;
+  text-decoration: none;
+  font-size: 140%;
+}
+.top_link {
+  color: #41535b;
+  font: bolder 2px;
+  font-family: Pixel;
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+  font-size: 180%;
+}
+.top_button {
+  color: #41535b;
+  background-color: rgba(0,122,204,0);
+  transition: 0.5s;
+  border: 0;
+  width: 120px;
+  height: 40px;
+}
+.top_button:hover {
+  background-color: rgba(0,122,204,0.1);
+}
+.pixel_text {
+  font-family: Zpix;
+}
+.default_text {
+  font-size: 90%;
+}
+.link_text {
+  color: #00a4ff;
+  font-size: 90%;
+}
