@@ -130,6 +130,33 @@ body {
   width: 90%;
   color: #00a4ff;
 }
+.post_header {
+  position: relative;
+}
+.post_header_image {
+  position: relative;
+  left: -15px;
+  top: -38px;
+  width: calc(103%);
+  height: 240px;
+  object-fit: cover;
+/* right: -20px; */
+}
+.post_header_text {
+  color: #f0f8ff;
+  position: absolute;
+  left: 3px;
+  top: -20px;
+  font-size: 30px;
+}
+.post_header_time {
+  color: #f0f8ff;
+  position: absolute;
+  left: 3px;
+  bottom: 65px;
+  font-weight: normal;
+  font-size: 15px;
+}
 .right_link {
   color: #41535b !important;
   font: bolder 2px;
